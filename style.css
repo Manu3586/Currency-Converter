@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #444;
+}
+
+.amount {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.amount p {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.from, .to {
+  width: 40%;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.select-container img {
+  width: 40px;
+  margin-right: 8px;
+}
+
+select {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+i.fa-arrow-right-arrow-left {
+  font-size: 20px;
+  color: #555;
+}
+
+.msg {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #5563c1;
+}
