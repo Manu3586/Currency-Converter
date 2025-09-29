@@ -9,7 +9,8 @@ A sleek and interactive **Currency Converter** web app that allows users to conv
 
 
 ## 🌐 Live Demo
-Check it out here: [Your Live Demo Link](https://your-username.github.io/currency-converter/)
+[🔗 View the Currency Converter Live](https://manu3586.github.io/Currency-Converter/)
+
 
 ## 🚀 Features
 - Convert between multiple currencies instantly
